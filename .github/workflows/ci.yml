@@ -43,4 +43,4 @@ jobs:
         echo '### force overwrite remote upm branch'
         git push -f -u origin upm
       env:
-        PKG_ROOT: Assets/pyxis
+        PKG_ROOT: Assets/Pyxis
