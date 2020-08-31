@@ -1,0 +1,16 @@
+{
+    "name": "com.davidjh.pyxis",
+    "displayName": "Pyxis",
+    "version": "0.1.0",
+    "unity": "2019.4",
+    "description": "Pyxis is a box of tools that I use.",
+    "keywords": [ "tools" ],
+    "dependencies": {},
+    "samples": [
+      {
+        "displayName": "Demo Scene",
+        "description": "Demo Scene",
+        "path": "Samples~/DemoScene"
+      }
+    ]
+  }
