@@ -1,3 +1,8 @@
-﻿class LensDistortionImpulseFeedback :
-    Feedback<LensDistortionImpulseFeedback, float>
-{ }
+﻿namespace Smeagolem.Pyxis
+{
+
+    class LensDistortionImpulseFeedback :
+        Feedback<LensDistortionImpulseFeedback, float>
+    { }
+
+}
