@@ -1,18 +1,23 @@
 ﻿using UnityEngine;
 using System;
 
-public abstract class Feedback<Self, T> : MonoBehaviour
+namespace Smeagolem.Pyxis
 {
-    public T value;
-    public static event Action<T> emitted;
 
-    void OnEnable()
+    public abstract class Feedback<Self, T> : MonoBehaviour
     {
-        Emit(value);
+        public T value;
+        public static event Action<T> emitted;
+
+        void OnEnable()
+        {
+            Emit(value);
+        }
+
+        public static void Emit(T value)
+        {
+            emitted?.Invoke(value);
+        }
     }
 
-    public static void Emit(T value)
-    {
-        emitted?.Invoke(value);
-    }
 }

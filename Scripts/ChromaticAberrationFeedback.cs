@@ -1,5 +1,10 @@
 ﻿using UnityEngine;
 
-public class ChromaticAberrationFeedback :
-    Feedback<ChromaticAberrationFeedback, AnimationCurve>
-{ }
+namespace Smeagolem.Pyxis
+{
+
+    public class ChromaticAberrationFeedback :
+        Feedback<ChromaticAberrationFeedback, AnimationCurve>
+    { }
+
+}

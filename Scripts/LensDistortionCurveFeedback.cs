@@ -1,5 +1,10 @@
 ﻿using UnityEngine;
 
-class LensDistortionCurveFeedback :
-    Feedback<LensDistortionCurveFeedback, AnimationCurve>
-{ }
+namespace Smeagolem.Pyxis
+{
+
+    class LensDistortionCurveFeedback :
+        Feedback<LensDistortionCurveFeedback, AnimationCurve>
+    { }
+
+}
